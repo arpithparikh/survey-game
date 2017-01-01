@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.TVApp .App-header h2 {
+  display: inline;
+}
+
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px 0 0 0;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+  padding: 2em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Buttons {
+  width: 100%;
+}
+
+.Buttons div {
+  display: block;
+  user-select: none;
+  border: 1px solid black;
+  width: 80%;
+  margin: 10px auto;
+  font-size: 10em;
+}
+
+.Buttons div.yes {
+  background-color: #a3ffbc;
+}
+
+.Buttons div.no {
+  background-color: #ff9c97;
+}
+
+
+.Buttons input {
+  display: none;
+}
+
+#question {
+  font-size: 4em;
+  color: #222222;
+  min-height: 1.7em;
+}
+
+#result {
+  font-size: 10em;
+  color: yellowgreen;
+}
